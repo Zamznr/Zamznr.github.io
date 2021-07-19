@@ -6,6 +6,12 @@
 #home {
   background-color: #212529;
 }
+#about {
+  padding-bottom: 5rem;
+}
+#contact {
+  padding-bottom: 10rem;
+}
 
 section {
   padding-top: 8rem;
