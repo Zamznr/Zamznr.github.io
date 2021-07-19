@@ -3,7 +3,7 @@
   background-color: #212529;
 }
 
-.body {
+#home {
   background-color: #212529;
 }
 #about {
@@ -17,7 +17,7 @@
 }
 
 section {
-  padding-top: 6rem;
+  padding-top: 8rem;
 }
 
 .caption {
