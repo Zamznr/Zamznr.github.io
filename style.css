@@ -24,3 +24,14 @@ section {
 .caption {
   text-align: center;
 }
+
+#navbarNav ul li a:hover {
+  color: yellow;
+  font-size: 18px;
+  font-style: bold;
+}
+
+#navbarNav ul li a:active {
+  font-size: 20px;
+  background-color: teal;
+}
