@@ -70,4 +70,5 @@ section {
 #navbarNav ul li a:active {
   font-size: 20px;
   background-color: teal;
+  border-radius: 50%;
 }
