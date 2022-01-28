@@ -1,5 +1,5 @@
 body {
-  font-family: monospace;
+  font-family: 'Quicksand';
 }
 
 .jumbotron {
@@ -11,44 +11,71 @@ body {
   width: 30px;
   height: 30px;
 }
+
 .ig:hover {
   background-color: #ffc107;
   border-radius: 30%;
 }
+
 .ig:active {
   width: 35px;
   height: 35px;
 }
+
 .fb {
   width: 40px;
   height: 40px;
 }
+
 .fb:hover {
   background-color: #ffc107;
   border-radius: 100%;
 }
+
 .fb:active {
   width: 35px;
   height: 35px;
 }
+
 .git {
   width: 30px;
   height: 30px;
 }
+
 .git:hover {
   background-color: #ffc107;
   border-radius: 100%;
 }
+
 .git:active {
   width: 35px;
   height: 35px;
 }
+
 #home {
   background-color: #212529;
 }
+
 #about {
   padding-bottom: 5rem;
 }
+
+#mySKill {
+  padding-bottom: 5rem;
+}
+.img-skill{
+  margin-top: 100px;
+}
+
+.img-skill img{
+  filter: saturate(0);
+  padding: 0px;
+}
+
+.img-skill img:hover{
+  filter: saturate(1);
+}
+
 #contact {
   padding-bottom: 10rem;
 }
@@ -63,12 +90,13 @@ section {
 
 #navbarNav ul li a:hover {
   color: yellow;
-  font-size: 18px;
   font-style: bold;
 }
 
 #navbarNav ul li a:active {
-  font-size: 20px;
-  background-color: teal;
-  border-radius: 50%;
+  color: red;
+  font-style: bold;
 }
+
+
+
