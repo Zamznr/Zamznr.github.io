@@ -1,4 +1,3 @@
-
 body {
   font-family: 'Quicksand', sans-serif;
 }
@@ -53,6 +52,28 @@ body {
   height: 35px;
 }
 
+.twitter {
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+.twitter:hover {
+  background-color: #ffc107;
+  border-radius: 100%;
+}
+
+.gd {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+
+.gd:hover {
+  background-color: #ffc107;
+  border-radius: 100%;
+}
+
 #home {
   background-color: #212529;
 }
@@ -61,16 +82,16 @@ body {
   padding-bottom: 5rem;
 }
 
-.img-skill{
+.img-skill {
   margin-top: 100px;
 }
 
-.img-skill img{
+.img-skill img {
   filter: saturate(0);
   padding: 0px;
 }
 
-.img-skill img:hover{
+.img-skill img:hover {
   filter: saturate(1);
 }
 
@@ -95,6 +116,3 @@ section {
   color: red;
   font-style: bold;
 }
-
-
-
