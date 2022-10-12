@@ -107,6 +107,11 @@ section {
   text-align: center;
 }
 
+#navbarNav ul li a {
+  font-size: 24px;
+  margin: 0 20px;
+}
+
 #navbarNav ul li a:hover {
   color: yellow;
   font-style: bold;
@@ -115,4 +120,13 @@ section {
 #navbarNav ul li a:active {
   color: red;
   font-style: bold;
+}
+
+.card:hover {
+  box-shadow: 1px 1px 20px #fff;
+}
+
+.card:active {
+  scale: 1.1;
+
 }
