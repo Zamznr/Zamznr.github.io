@@ -130,3 +130,22 @@ section {
   scale: 1.1;
 
 }
+
+.portfolio{
+  border-radius: 15px;
+  aspect-ratio: 3 2;
+  transition: all .4s;
+  -webkit-transition: all .4s;
+  -moz-transition: all .4s;
+  -ms-transition: all .4s;
+  -o-transition: all .4s;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.portfolio:hover{
+  scale: 1.1;
+  box-shadow: 10px 0px 20px rgba(255, 255, 255, 0.281);
+}
