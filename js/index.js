@@ -5,7 +5,7 @@ const row = document.getElementById('portfolio-section');
 
 listdataPortfolio.forEach(element => {
   const column = document.createElement('div');
-  column.setAttribute('class', "col-md-4 portfolio");
+  column.setAttribute('class', "col-lg-4 portfolio");
 
   const card = document.createElement("div");
   card.setAttribute('class', "shadow-lg p-5 text-light");
@@ -14,19 +14,20 @@ listdataPortfolio.forEach(element => {
 
   const cardBody = document.createElement('div');
   cardBody.setAttribute('class', "card-body");
-  const paragraph = document.createElement('h4');
-  paragraph.setAttribute('class', 'card-text caption');
+  const title = document.createElement('h4');
+  const description = document.createElement('p');
+  title.setAttribute('class', 'card-text caption');
+  description.setAttribute('class', 'card-text caption');
   const img = document.createElement('img');
-  img.setAttribute('class', "portfolio card-img-top");
+  img.setAttribute('class', "card-img-top portfolio");
 
   column.appendChild(card);
   row.appendChild(column);
 
-  console.log(element.image);
-
   img.src = element.image;
-  paragraph.innerText = element.title
-  cardBody.appendChild(paragraph);
-  card.append(cardBody, img);
+  title.innerText = element.title
+  description.innerText = element.description
+  cardBody.append(title, description);
+  card.append(img, cardBody);
 });
 

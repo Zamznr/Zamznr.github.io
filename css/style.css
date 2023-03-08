@@ -133,7 +133,7 @@ section {
 
 .portfolio{
   border-radius: 15px;
-  aspect-ratio: 3 2;
+  aspect-ratio: 1/1;
   transition: all .4s;
   -webkit-transition: all .4s;
   -moz-transition: all .4s;
