@@ -23,7 +23,7 @@ export const listdataPortfolio = [
   },
   {
     "title": "ASK MY HEALTH APP",
-    "description": "Sebuah aplikasi Kesehatan yang mulai dikembangkan dari Event HACKFEST 2023 oleh Google Developer Student Clud (GDSC) Indonesia yang memiliki fitur utama yaitu konsultasi secara online dengan sistem Bot",
+    "description": "Sebuah aplikasi Kesehatan yang mulai dikembangkan dari Event HACKFEST 2023 oleh Google Developer Student Club (GDSC) Indonesia yang memiliki fitur utama yaitu konsultasi secara online dengan sistem Bot",
     "image": "img/portfolio/askmyhealth.svg",
   },
 

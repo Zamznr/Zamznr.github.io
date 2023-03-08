@@ -23,8 +23,8 @@ body {
 }
 
 .fb {
-  width: 40px;
-  height: 40px;
+  /* width: 30px; */
+  height: 35px;
 }
 
 .fb:hover {
@@ -133,7 +133,7 @@ section {
 
 .portfolio{
   border-radius: 15px;
-  aspect-ratio: 1/1;
+ 
   transition: all .4s;
   -webkit-transition: all .4s;
   -moz-transition: all .4s;
@@ -143,6 +143,14 @@ section {
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
+}
+
+.img-galery{
+  aspect-ratio: 1/1;
+  transition: all .4s;
+}
+.img-galery:hover{
+  scale: 1.1;
 }
 
 .portfolio:hover{

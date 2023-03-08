@@ -19,7 +19,7 @@ listdataPortfolio.forEach(element => {
   title.setAttribute('class', 'card-text caption');
   description.setAttribute('class', 'card-text caption');
   const img = document.createElement('img');
-  img.setAttribute('class', "card-img-top portfolio");
+  img.setAttribute('class', "card-img-top img-galery");
 
   column.appendChild(card);
   row.appendChild(column);
